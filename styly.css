@@ -1,0 +1,134 @@
+h1 {
+	color: darkblue;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	translate: no;
+	margin: 0 ;
+	font-family: 'Oswald';
+	margin: 0 ;
+}
+
+h2 {
+	color: #0B132B;
+	font-size: 30px;
+	font-weight: bold;
+	translate: no;
+	text-align: center;
+	font-family: 'Oswald';
+	
+}
+
+h3 {
+	color: #FFD700;
+	font-size: 20px;
+	font-weight: semi;
+	translate: no;
+    font-style: italic;
+	text-align: left;
+	font-family: 'Oswald';
+	margin: 0 ;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #0B132B;
+	line-height: 1.05;
+	text-align: justify;
+}
+
+.p-na-stred {
+	text-align: justify;
+}
+
+.p-obsah {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.p-obsah h3 {
+    text-align: left;
+    text-decoration: underline;
+    margin-top: 15px;
+}
+
+.kolekce {
+	color: darkblue;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0 ;
+	font-family: 'Oswald';
+}
+
+
+.img-normal {
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.prdel {
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.img-vedle-sebe {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-vedle-sebe img {
+    width: 250px;
+    height: auto;
+    margin-left: auto;
+    flex-shrink: 0;
+}
+
+.menu {
+  display: flex;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+  width: fit-content;
+  margin: 0 auto;
+  text-color: white;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 6px 10px;
+  color: white;
+  background: darkblue;
+  border-radius: 6px;  
+}
+
+.menu li a {
+  color: #E5E4E2;  
+  text-decoration: none;
+  display: block;
+  padding: 8px 15px;
+  font-family: 'Oswald';
+}
+
+.menu .hlavni {
+  color: #FFD700;  
+  font-weight: bolt;
+}
+
+.menu li a:hover {
+  color: pink;  
+}
